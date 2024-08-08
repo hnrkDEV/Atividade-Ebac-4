@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+body {
+    background-image: url(./img/fc1f967d-bd2b-41f4-aa43-e63a3178e65c.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+form {
+    margin-top: 200px;
+    background-color: rgba(255,255,255, 0.5);
+    padding: 100px 10px 300px 10px;
+    border-radius: 15px;
+}
+input {
+    margin-top: 20px;
+}
+button {
+    margin-top: 20px;
+    margin-left: 0px;
+}
