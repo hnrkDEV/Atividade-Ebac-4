@@ -13,7 +13,6 @@ body {
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 form {
     width: 600px;
@@ -37,8 +36,9 @@ input::placeholder {
     color: rgba(15, 15, 15, 0.9);
     border: none;
 }
-input:active {
-    border: none;
+input:focus{
+    transition: 0.3s;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 button {
     margin-top: 40px;
@@ -53,9 +53,15 @@ button:hover {
     cursor: pointer;
     background-color: rgb(32, 133, 201);
     color: white;
+    transition: 0.3s;
 }
 .formh1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 40px;
-
+    text-transform: uppercase;
+    text-decoration: underline 2px;
+}
+#resultado {
+    margin-top: 20px;
+    letter-spacing: 2px;
 }
